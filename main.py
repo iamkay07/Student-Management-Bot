@@ -91,7 +91,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 if __name__ == "__main__":
     database.init_db()
     
-    TOKEN = "8408062162:AAFD2Yp4P3ww8imKFZQSCf_qRS6mAY3QP-s"
+    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
 
     app = ApplicationBuilder().token(TOKEN).build()
 
